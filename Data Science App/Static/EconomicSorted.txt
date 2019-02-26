@@ -1,0 +1,19 @@
+Advanced Mfg
+Aerospace
+Agribusiness
+Automotive
+Biotechnology
+Construction
+Educational Services
+Energy
+Finance
+Geospatial
+Health Care
+Homeland Security
+Hospitality
+IT
+Null
+Other Economic Sector
+Retail
+Transportation
+nan
