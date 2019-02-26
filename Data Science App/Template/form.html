@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block thebody %}
+
+    <h1>{{title}}</h1>
+
+    <h2>Please enter your details below.</h2>
+    <form action='/processForm' method='post'>
+        <input type='text' required autofocus size=100 name='seven_words'>
+        Economic Sector
+    <select name="job_sector_list">
+  <option value="Biotechnology">Biotechnology</option>
+  <option value="Geospatial">Geospatial</option>
+  <option value="IT">IT</option>
+  <option value="Hospitality">Hospitality</option>
+        <option value="Finance">Finance</option>
+  <option value="Energyl">Energy</option>
+  <option value="Advanced Manufacturing">Advanced Manufacturing</option>
+  <option value="Aerospace">Aerospace</option>
+         <option value="Retail">Retail</option>
+  <option value="Healthcare">Healthcare</option>
+  <option value="Transportation">Transportation</option>
+  <option value="Automotive">Automotive</option>
+         <option value="Educational Services">Educational Services</option>
+  <option value="Homeland Security">Homeland Security</option>
+  <option value="Construction">Construction</option>
+  <option value="Agribusiness">Agribusiness</option>
+        <option value="Other economic sector">Other economic sector</option>
+</select>
+        <p>
+        <input type='submit' value='Done!'>
+        </p>
+    </form>
+{% endblock %}
